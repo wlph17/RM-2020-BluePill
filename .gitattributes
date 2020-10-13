@@ -1,0 +1,11 @@
+.clang-format -text
+.clang-tidy -text
+.mx-project -text
+Makefile    -text
+*.mk        -text
+*.ioc       -text
+*.svd       -text
+*.ld        -text
+*.s         -text
+
+*           text=auto
