@@ -11,15 +11,9 @@ namespace Drivers
 {
 namespace MG996R
 {
-class MG996R
-{
-   public:
-    MG996R() {}
-    void init();
-    void setTargetAngle(uint8_t);
+void init();
+void setTargetAngle(uint8_t);
 
-   private:
-};
 }  // namespace MG996R
 }  // namespace Drivers
 #endif
