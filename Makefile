@@ -41,7 +41,7 @@ DEFS = \
 
 CPP_SRC = \
 Core/Src/UserTasks.cpp \
-WorkPlace/Drivers/*.cpp 
+WorkPlace/*.cpp 
 
 
 # ASM sources
@@ -71,6 +71,6 @@ C_INCLUDES =  \
 -IDrivers/CMSIS/Device/ST/STM32F1xx/Include \
 -IDrivers/CMSIS/Include \
 -IDrivers/CMSIS/DSP/Include \
--IWorkPlace/Drivers
+-IWorkPlace/
 
 include core.mk
