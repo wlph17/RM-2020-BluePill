@@ -9,7 +9,7 @@ void init()
 {
     // Write you code here
 }
-void setTargetAngle(uint8_t)
+void setTargetAngle(uint8_t input)
 {
     // Write you code here
 }

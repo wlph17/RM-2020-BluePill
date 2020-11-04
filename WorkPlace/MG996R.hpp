@@ -12,7 +12,7 @@ namespace Drivers
 namespace MG996R
 {
 void init();
-void setTargetAngle(uint8_t);
+void setTargetAngle(uint8_t input);
 
 }  // namespace MG996R
 }  // namespace Drivers
